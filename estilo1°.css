@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  background-image: linear-gradient(to right, #000444 0, #1d357f 40%, #1d357f 60%, #000444 100%);
+  background-attachment: fixed;
+}
+
+.logo {
+  position: absolute;
+  left: 250px;
+  top: 30px;
+}
+
+.direita-geral {
+  position: relative;
+  top: 20px;
+  text-align: right;
+}
+
+#direita {
+  list-style: none;
+  padding: 0;
+  background-image: linear-gradient(to right, #000444 0, #1d357f 40%, #1d357f 60%, #000444 100%);
+  text-decoration: none;
+}
+
+#direita li {
+  display: inline;
+}
+
+#direita li a {
+  top: 200px;
+  left: 200px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  font-family: 'Calibri', Arial, Helvetica, sans-serif;
+}
+
+.contraste {
+  left: 10px;
+}
+
+.face {
+  position: absolute;
+  left: 1060px;
+  top: 80px;
+}
+
+.twitter {
+  position: absolute;
+  left: 1090px;
+  top: 80px;
+}
+
+.instagram {
+  position: absolute;
+  left: 1120px;
+  top: 80px;
+}
+
+.youtube {
+  position: absolute;
+  left: 1150px;
+  top: 80px;
+}
+
+.flickr {
+  position: absolute;
+  left: 1180px;
+  top: 80px;
+}
+
+.portal {
+  position: absolute;
+  left: 1240px;
+  top: 80px;
+}
+
+#menu {
+
+  list-style: none;
+  padding: 0%;
+  background-color: rgb(157, 150, 175);
+  text-decoration: none;
+}
+
+#menu li {
+  display: inline;
+}
+
+#menu li a {
+  top: 200px;
+  left: 200px;
+  color: #324688;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  font-family: 'Calibri', Arial, Helvetica, sans-serif;
+
+}
+
+#menu li a:hover {
+  background-color: #0071bb;
+}
+
+#menu lic:last-child img {
+  float: right;
+  left: 50px;
+}
+
+.menu-geral {
+  position: relative;
+  top: 160px;
+  text-align: center;
+}
+
+.cor1 {
+  position: relative;
+  color: #0071bb;
+  background-color: #0071bb;
+  top: 160.5px;
+}
+
+.fundo1 {
+  width: 650px;
+  height: 400px;
+  background-color: #324688;
+  position: relative;
+  left: 170px;
+  top: 265px;
+  z-index: 0;
+}
+
+.fundo2 {
+  width: 1499px;
+  height: 600px;
+  background-color: #ffff;
+  position: static;
+  z-index: 0;
+}
